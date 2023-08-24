@@ -7,6 +7,7 @@ import 'package:tasks/task2/screens/counter_app/counter_view_model.dart';
 import 'package:tasks/task2/screens/shopping_cart/cubit/shopping_cart_cubit.dart';
 import 'package:tasks/task2/screens/shopping_cart/shopping_cart_screen.dart';
 import 'package:tasks/task3/screen/posts_screen/posts_screen.dart';
+import 'package:tasks/task3/screen/weather/weather_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
       //   create: (context) => CartCubit(),
       //   child: ShoppingCartScreen(),
       ///task3
-      home:PostsScreen(),
+      // home:PostsScreen(),
+      home:WeatherPage(),
     );
   }
 }
